@@ -20,6 +20,9 @@
 		6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF23BB1B96CC2600BCE792 /* fragment.glsl */; };
 		6DEF23C31B96CC2600BCE792 /* ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF23BE1B96CC2600BCE792 /* ShaderProgram.cpp */; };
 		6DEF23C41B96CC2600BCE792 /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF23C01B96CC2600BCE792 /* vertex.glsl */; };
+		C272EF62222C8457001FBBC5 /* puppy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C272EF61222C8457001FBBC5 /* puppy1.jpg */; };
+		C272EF64222C846E001FBBC5 /* kitty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C272EF63222C846E001FBBC5 /* kitty.jpg */; };
+		C272EF66222C8475001FBBC5 /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C272EF65222C8475001FBBC5 /* duck.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		6DEF23BE1B96CC2600BCE792 /* ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShaderProgram.cpp; sourceTree = "<group>"; };
 		6DEF23BF1B96CC2600BCE792 /* ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProgram.h; sourceTree = "<group>"; };
 		6DEF23C01B96CC2600BCE792 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		C272EF61222C8457001FBBC5 /* puppy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy1.jpg; sourceTree = SOURCE_ROOT; };
+		C272EF63222C846E001FBBC5 /* kitty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitty.jpg; sourceTree = SOURCE_ROOT; };
+		C272EF65222C8475001FBBC5 /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duck.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,9 @@
 				6DE9D2F01BA6AB8C002D599C /* fragment_textured.glsl */,
 				6DC707691BA7273500225B7D /* vertex_textured.glsl */,
 				6DEF23BE1B96CC2600BCE792 /* ShaderProgram.cpp */,
+				C272EF61222C8457001FBBC5 /* puppy1.jpg */,
+				C272EF63222C846E001FBBC5 /* kitty.jpg */,
+				C272EF65222C8475001FBBC5 /* duck.jpg */,
 				6DEF23BF1B96CC2600BCE792 /* ShaderProgram.h */,
 				6DEF23C01B96CC2600BCE792 /* vertex.glsl */,
 				6D5A86B919AE5C710066C1FD /* main.cpp */,
@@ -185,10 +194,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C272EF62222C8457001FBBC5 /* puppy1.jpg in Resources */,
 				6D5A86B819AE5C710066C1FD /* InfoPlist.strings in Resources */,
 				6DEF23C11B96CC2600BCE792 /* fragment.glsl in Resources */,
 				6DE9D2F11BA6AB8C002D599C /* fragment_textured.glsl in Resources */,
+				C272EF64222C846E001FBBC5 /* kitty.jpg in Resources */,
 				6D5A86C619AE5C710066C1FD /* Images.xcassets in Resources */,
+				C272EF66222C8475001FBBC5 /* duck.jpg in Resources */,
 				6D5A86BE19AE5C710066C1FD /* Credits.rtf in Resources */,
 				6DEF23C41B96CC2600BCE792 /* vertex.glsl in Resources */,
 				6DC7076A1BA7273500225B7D /* vertex_textured.glsl in Resources */,

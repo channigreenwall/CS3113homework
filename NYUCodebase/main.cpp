@@ -46,9 +46,12 @@ int main(int argc, char *argv[])
 #endif
     ShaderProgram program;
     program.Load(RESOURCE_FOLDER"vertex_textured.glsl", RESOURCE_FOLDER"fragment_textured.glsl");
-    GLuint puppy1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/puppy1.jpg");
-    GLuint duck1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/duck.jpg");
-    GLuint kitty1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/kitty.jpg");
+    GLuint puppy1 = LoadTexture(RESOURCE_FOLDER"puppy1.jpg");
+    GLuint duck1 = LoadTexture(RESOURCE_FOLDER"duck.jpg");
+    GLuint kitty1 = LoadTexture(RESOURCE_FOLDER"kitty.jpg");
+    //GLuint puppy1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/puppy1.jpg");
+    //GLuint duck1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/duck.jpg");
+    //GLuint kitty1 = LoadTexture("/Users/channigreenwall/Desktop/GP-HW/HW1-GP/kitty.jpg");
     if (puppy1 ==-1){
         std::cout<<"not working puppy"<<std::endl;
     }
